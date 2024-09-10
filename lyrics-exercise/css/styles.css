@@ -1,0 +1,38 @@
+lyrics exercise
+
+  {@import url("https://use.typekit.net/zgk3enx.css");}
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/8/8e/Childish_Gambino_Summertime_Magic.png");
+    background-color: #1c2842;
+   }
+p {
+    
+    font-size: 22 px;
+    font-family:"basic-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1c2842;
+}
+.container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 580px;
+    margin-left: 580px;
+    background-color: white;
+}
+
+
+h1 {
+    font-family: "gambado-scotch-forte", serif;
+    font-weight: 700;
+    font-size: 50px;
+    font-style: normal;
+    color: white;
+}
+h3 {
+    font-family: "gambado-scotch", serif;
+    font-weight: 700;
+    font-size: 25px;
+    font-style: normal;
+    color: white;
+}
