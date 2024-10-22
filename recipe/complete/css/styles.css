@@ -1,0 +1,242 @@
+body{
+    line-height: 30px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color:rgb(231, 203, 174);
+    width:100%;
+    margin: auto
+}
+
+header {
+    text-align: left;
+    margin: auto;
+    padding-top: 1rem;    
+    padding-bottom: 1rem;
+    background-color: rgb(62, 23, 81);
+    border-top: .5rem solid white;
+    border-bottom: .5rem solid white;
+    border-style: double;
+}
+
+.headertxt {
+    max-width: 70rem;
+    margin: auto
+}
+
+.intro {
+    padding: 2rem 3rem 5rem 3rem;
+    max-width: 70rem;
+    margin: auto;
+}
+
+.ingredients {
+    margin: auto;
+    max-width: 70rem;
+}
+
+.instructions {
+    margin: auto;
+    max-width: 70rem;
+}
+
+.nutrition {
+    margin: auto;
+    padding: 2rem;
+    max-width: 70rem;
+    
+}
+
+
+header h5{
+    font-size: .9em;
+    padding: 0rem 1rem;
+}
+
+.box-sizing-example {
+    background-color: #eeeeee;
+    padding: 1rem 2rem;
+    margin: auto;
+    max-width: 90rem;
+    border: .5rem solid purple;
+    border-style: double;
+  }
+
+h1{
+    color:white;
+    padding: 0rem 1rem;
+}
+
+h2 {
+    color: purple;
+    margin-bottom: 0rem;
+}
+
+h3 {
+    margin: 0rem;
+    font-weight: bold;
+    text-wrap: wrap;
+
+}
+
+h4 {
+    padding:1rem 0rem 0rem 0rem;
+    margin: 0rem;
+    color: purple;
+}
+
+h5{
+    color: orange;
+    line-height: 20px;
+    margin-top:5px;
+    font-size: .7em;
+}
+
+h6 {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+}
+
+p {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a:link {
+    color: purple;
+  }
+
+a:visited {
+    color: orange;
+  }
+
+.small {
+    font-size: .7em;
+}
+
+ul{
+    margin: 1rem auto;
+    padding: 0rem;
+
+}
+
+li {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img {
+    height:400px;
+    width: auto;
+    object-fit: contain;
+    background-color: #eeeeee;
+    padding: 1rem;
+    border: .5rem solid purple;
+    border-style: double;
+    margin: 15px;
+    float: right;
+}
+
+.imgbox {
+    height:450px;
+    float: right;
+    margin: 1rem 2rem ;
+}
+
+.first {
+    height:400px;
+    width: auto;
+    object-fit: contain;
+    background-color: #eeeeee;
+    padding: 1rem;
+    border: .5rem solid purple;
+    border-style: double;
+    float: right;
+}
+
+
+.lastimg{
+    margin:auto;
+    float: none;
+}
+
+
+
+@media (min-width: 500px) {
+    h1{
+        font-size: 2rem;
+    }
+    img {
+        
+        margin: auto;
+    }
+}
+
+@media (max-width: 740px) {
+    h5{
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem; 
+        line-height: 2rem;
+    }
+
+    .intro {
+        padding: 1.5rem;
+
+    }
+    header{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 80%;
+        line-height: 10px;
+    }
+    .lastimg {
+        margin: auto;
+    }
+    .imgbox {
+        float:none;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+@media (max-width: 500px) {
+    h5{
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem; 
+        line-height: 2rem;
+    }
+    img {
+        width: 45%;
+        float:none;
+        margin: auto;
+        height:auto;
+
+    }
+    .intro {
+        padding: 1.5rem;
+
+    }
+    header{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        font-size: 80%;
+        line-height: 10px;
+    }
+    .lastimg {
+        margin: auto;
+    }
+    .imgbox {
+        float:none;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+}
