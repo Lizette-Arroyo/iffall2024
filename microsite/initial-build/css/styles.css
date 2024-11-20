@@ -90,6 +90,35 @@ body {
     width: fit-content;
 }
 
+.button_pic img {
+  border: groove 15px rgb(195, 163, 69);
+}
+
+
+a {
+position: relative
+}
+
+a span {
+display: none;
+position: absolute;
+bottom: 0px;
+width: 100%;
+height: 185px;
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.351);
+
+}
+
+a:hover span {
+display: block
+}
+
+a:hover{
+  text-align: center;
+  color: white ;
+}
+
 @media (max-width: 640px) {
     html {
         font-size: 16pt;
@@ -101,16 +130,5 @@ body {
         width: 50%;
     }
 
-}
-
-a:hover img{
-    text-align: center;
-    background-color: #7f7f7f6e;
-    opacity: 50%;
-
-}
-
-.button_pic img {
-    border: groove 15px rgb(195, 163, 69);
 }
 
